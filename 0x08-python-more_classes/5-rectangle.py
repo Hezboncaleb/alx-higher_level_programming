@@ -59,6 +59,7 @@ class Rectangle:
     def __repr__(self):
         """Prints the rectangle using eval"""
         return "Rectangle({}, {})".format(self.width, self.height)
+
     def __del__(self):
         """Prints message when the rectangle is deleted """
         print("Bye rectangle...")
